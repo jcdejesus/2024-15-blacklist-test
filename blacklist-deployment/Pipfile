@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "blacklist"
+
+[packages]
+flask = "*"
+flask-sqlalchemy = "*"
+psycopg2-binary = "*"
+marshmallow = "*"
+python-dotenv = "*"
+faker = "*"
+
+[dev-packages]
+pytest = "~=7.2.0"
+pytest-cov = "~=4.0.0"
+faker = "*"
